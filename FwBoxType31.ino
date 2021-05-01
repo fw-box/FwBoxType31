@@ -37,7 +37,7 @@
 #include "FwBox.h"
 
 #define DEVICE_TYPE 31
-#define FIRMWARE_VERSION "1.0.0"
+#define FIRMWARE_VERSION "1.0.1"
 
 #define PIN_ON_OFF 12
 #define PIN_LED 13
