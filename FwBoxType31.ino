@@ -37,7 +37,7 @@
 #include "FwBox.h"
 
 #define DEVICE_TYPE 31
-#define FIRMWARE_VERSION "1.0.1"
+#define FIRMWARE_VERSION "1.0.2"
 
 #define PIN_ON_OFF 12
 #define PIN_LED 13
@@ -84,7 +84,7 @@ static uint32_t next_heap_millis = 0;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   //
   // Initialize the fw-box core (early stage)
